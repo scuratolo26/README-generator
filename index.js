@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -44,10 +44,10 @@ const questions = [
             'BSD 3-Clause "New" or "Revised" License',
             'Boost Software License 1.0',
             'Creative Commons Zero v1.0 Universal',
-            'Eclipse Public License 2.0',
+            'Eclipse Public License 1.0',
             'GNU Affero General Public License v3.0',
             'GNU General Public License v2.0',
-            'GNU Lesser General Public License v2.1',
+            'GNU Lesser General Public License v3.0',
             'Mozilla Public License 2.0',
             'The Unlicense']
     },
@@ -77,7 +77,6 @@ function writeToFile(fileName, data) {
 function init() {
     return inquirer.prompt(questions).then((data) => {
         console.log(data);
-
         return data;
     });
 };
@@ -88,6 +87,6 @@ init()
         return generateMarkdown(userData);
     })
     .then(readmeData => {
-        writeToFile('README.md', readmeData)
+        writeToFile('/Users/samcuratolo/Desktop/Bootcamp/Challenges/README-generator/README.md', readmeData)
     })
 
