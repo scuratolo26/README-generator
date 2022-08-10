@@ -35,5 +35,6 @@ Visit <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apach
 ## Questions
 If you have any questions or feedback you can reach me at scuratolo26@gmail.com or my <a href="https://github.com/scuratolo26">GitHub</a> page.
 
-## Video Tutorial
-<a href="https://drive.google.com/file/d/1Od7aY1R42AxEvk2O4M7GHJzq-5jccwFR/view">Click Here!</a>
+## Video Walkthrough
+
+<a href="https://watch.screencastify.com/v/GCI2DFoJ9rQ6DysGbj0s">Click here to watch</a>
