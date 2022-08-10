@@ -28,7 +28,7 @@ None
 ## License
 
    Apache License 2.0 <br> 
-Visit <a href="https://opensource.org/licenses/Apache-2.0" target="_blank">Apache License 2.0</a> for more information.
+Visit <a href="https://opensource.org/licenses/Apache-2.0">Apache License 2.0</a> for more information.
   
 
 
@@ -37,4 +37,4 @@ If you have any questions or feedback you can reach me at scuratolo26@gmail.com 
 
 ## Video Walkthrough
 
-<a href="https://watch.screencastify.com/v/GCI2DFoJ9rQ6DysGbj0s" target="_blank">Click here to watch</a>
+<a href="https://watch.screencastify.com/v/GCI2DFoJ9rQ6DysGbj0s">Click here to watch</a>
